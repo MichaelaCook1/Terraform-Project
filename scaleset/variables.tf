@@ -2,11 +2,11 @@ variable "location" {}
 
 variable "prefix" {}
 
-variable "in" {}
+variable "inhrs" {}
 
 variable "inmins" {}
 
-variable "out" {}
+variable "outhrs" {}
 
 variable "outmins" {}
 
