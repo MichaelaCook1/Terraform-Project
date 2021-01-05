@@ -120,7 +120,7 @@ resource "azurerm_monitor_autoscale_setting" "main" {
       #frequency = "Week"
       timezone = "GMT Standard Time"
       days     = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-      hours    = [var.in]
+      hours    = [var.inhrs]
       minutes  = [var.inmins]
     }
   }
@@ -158,7 +158,7 @@ resource "azurerm_monitor_autoscale_setting" "main" {
       #frequency = "Week"
       timezone = "GMT Standard Time"
       days     = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-      hours    = [var.out]
+      hours    = [var.outhrs]
       minutes  = [var.outmins]
     }
   }
